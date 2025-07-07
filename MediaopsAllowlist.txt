@@ -130,3 +130,6 @@ rapidssl.com
 comodo.com
 sectigo.com
 letsencrypt
+adaptglobal.io
+nuance.adaptglobal.io
+elevenlabs.io
