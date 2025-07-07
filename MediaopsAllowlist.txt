@@ -1,69 +1,45 @@
-# Media Station DNS Allowlist for Pi-hole
-# Version: 1.0
-# Last Updated: 2025-07-07
-# Purpose: Allowlist for media stations running Pro Tools, Adobe CC, iLok, LucidLink, etc.
-
-# =============================================================================
-# MICROSOFT SERVICES & UPDATES
-# =============================================================================
-
-# Windows Update
-*.windowsupdate.com
 windowsupdate.microsoft.com
 update.microsoft.com
-*.update.microsoft.com
 download.windowsupdate.com
-*.download.windowsupdate.com
 ntservicepack.microsoft.com
-*.microsoft.com
-*.microsoftonline.com
-*.live.com
-*.msftncsi.com
-*.msauth.net
-*.msauthimages.net
-*.msecnd.net
-*.msocdn.com
-*.office.com
-*.office365.com
-*.officecdn.microsoft.com
-*.sharepoint.com
-*.skype.com
-*.windows.net
-*.azure.com
-*.azureedge.net
-*.windowsupdate.com
-*.delivery.mp.microsoft.com
-*.mp.microsoft.com
-
-# Microsoft Store
-*.apps.microsoft.com
-*.store.microsoft.com
-
-# =============================================================================
-# ADOBE CREATIVE CLOUD
-# =============================================================================
-
-# Adobe CC Core Services
-*.adobe.com
-*.adobe.io
-*.adobecc.com
-*.adobedtm.com
-*.adobelogin.com
-*.adobesc.com
-*.adobeoobe.com
-*.adobedc.net
-*.adobeccstatic.com
-*.adobetag.com
-*.typekit.net
-*.typekit.com
-*.adobe-identity.com
-*.behance.net
-*.creativecloud.com
-*.stock.adobe.com
-*.adobestats.io
-*.adobestats.com
-
-# Adobe Licensing & Authentication
+microsoft.com
+microsoftonline.com
+live.com
+msftncsi.com
+msauth.net
+msauthimages.net
+msecnd.net
+msocdn.com
+office.com
+office365.com
+officecdn.microsoft.com
+sharepoint.com
+skype.com
+windows.net
+azure.com
+azureedge.net
+delivery.mp.microsoft.com
+mp.microsoft.com
+apps.microsoft.com
+store.microsoft.com
+adobe.com
+adobe.io
+adobecc.com
+adobedtm.com
+adobelogin.com
+adobesc.com
+adobeoobe.com
+adobedc.net
+adobeccstatic.com
+adobetag.com
+typekit.net
+typekit.com
+adobe-identity.com
+behance.net
+creativecloud.com
+stock.adobe.com
+adobestats.io
+adobestats.com
 lcs-cops.adobe.io
 lcs-robs.adobe.io
 cc-api-data.adobe.io
@@ -81,152 +57,104 @@ adobe-dns.adobe.com
 adobe-dns-1.adobe.com
 adobe-dns-2.adobe.com
 adobe-dns-3.adobe.com
-
-# Adobe Fonts
 use.typekit.net
 p.typekit.net
-*.fonts.net
-*.typography.com
-
-# =============================================================================
-# AVID PRO TOOLS
-# =============================================================================
-
-# Avid Services
-*.avid.com
-*.avidtechnology.com
-*.avid.io
-*.avidcloud.com
+fonts.net
+typography.com
+avid.com
+avidtechnology.com
+avid.io
+avidcloud.com
 activation.avid.com
 licensing.avid.com
 updates.avid.com
 support.avid.com
 cloud.avid.com
 marketplace.avid.com
-*.euphonix.com
-
-# Avid CDN and Updates
+euphonix.com
 cdn.avid.com
 download.avid.com
-*.avidtech.com
-
-# =============================================================================
-# ILOK LICENSE MANAGEMENT
-# =============================================================================
-
-# iLok/PACE Anti-Piracy
-*.ilok.com
-*.paceap.com
-*.paceap.org
-*.pacea.paceap.com
-*.pacea.paceap.org
+avidtech.com
+ilok.com
+paceap.com
+paceap.org
+pacea.paceap.com
+pacea.paceap.org
 www.ilok.com
 www.paceap.com
 www.paceap.org
 secure.ilok.com
 secure.paceap.com
 secure.paceap.org
-
-# iLok License Manager
 licensemanager.ilok.com
 activationmanager.ilok.com
-*.s3.amazonaws.com
-
-# =============================================================================
-# LUCIDLINK
-# =============================================================================
-
-# LucidLink Core Services
-*.lucidlink.com
+s3.amazonaws.com
+lucidlink.com
 api.lucidlink.com
 auth.lucidlink.com
 portal.lucidlink.com
 updates.lucidlink.com
 download.lucidlink.com
-*.lucidfs.com
-
-# =============================================================================
-# AMAZON WEB SERVICES (AWS)
-# =============================================================================
-
-# AWS Core Services
-*.amazonaws.com
-*.aws.amazon.com
-*.awsstatic.com
-*.awscloud.com
-*.awsapps.com
-*.awsappstream.com
-*.awstrack.me
-
-# AWS Regions (Global)
-*.us-east-1.amazonaws.com
-*.us-east-2.amazonaws.com
-*.us-west-1.amazonaws.com
-*.us-west-2.amazonaws.com
-*.eu-west-1.amazonaws.com
-*.eu-west-2.amazonaws.com
-*.eu-west-3.amazonaws.com
-*.eu-central-1.amazonaws.com
-*.ap-northeast-1.amazonaws.com
-*.ap-northeast-2.amazonaws.com
-*.ap-southeast-1.amazonaws.com
-*.ap-southeast-2.amazonaws.com
-*.ap-south-1.amazonaws.com
-*.sa-east-1.amazonaws.com
-*.ca-central-1.amazonaws.com
-
-# AWS CloudFront
-*.cloudfront.net
-*.cloudfront.com
-
-# AWS S3
-*.s3.amazonaws.com
-*.s3-us-east-1.amazonaws.com
-*.s3-us-west-1.amazonaws.com
-*.s3-us-west-2.amazonaws.com
-*.s3-eu-west-1.amazonaws.com
-*.s3-eu-central-1.amazonaws.com
-*.s3-ap-southeast-1.amazonaws.com
-*.s3-ap-northeast-1.amazonaws.com
-
-# AWS DCV (Desktop Cloud Visualization)
-*.dcv.amazon.com
-*.dcv.amazonaws.com
+lucidfs.com
+amazonaws.com
+aws.amazon.com
+awsstatic.com
+awscloud.com
+awsapps.com
+awsappstream.com
+awstrack.me
+us-east-1.amazonaws.com
+us-east-2.amazonaws.com
+us-west-1.amazonaws.com
+us-west-2.amazonaws.com
+eu-west-1.amazonaws.com
+eu-west-2.amazonaws.com
+eu-west-3.amazonaws.com
+eu-central-1.amazonaws.com
+ap-northeast-1.amazonaws.com
+ap-northeast-2.amazonaws.com
+ap-southeast-1.amazonaws.com
+ap-southeast-2.amazonaws.com
+ap-south-1.amazonaws.com
+sa-east-1.amazonaws.com
+ca-central-1.amazonaws.com
+cloudfront.net
+cloudfront.com
+s3.amazonaws.com
+s3-us-east-1.amazonaws.com
+s3-us-west-1.amazonaws.com
+s3-us-west-2.amazonaws.com
+s3-eu-west-1.amazonaws.com
+s3-eu-central-1.amazonaws.com
+s3-ap-southeast-1.amazonaws.com
+s3-ap-northeast-1.amazonaws.com
+dcv.amazon.com
+dcv.amazonaws.com
 dcv-license.us-east-1.amazonaws.com
 dcv-license.us-west-2.amazonaws.com
 dcv-license.eu-west-1.amazonaws.com
 dcv-license.ap-southeast-1.amazonaws.com
 dcv-license.ap-northeast-1.amazonaws.com
-
-# =============================================================================
-# ESSENTIAL INFRASTRUCTURE
-# =============================================================================
-
-# DNS & Time Services
 time.windows.com
 time.nist.gov
 pool.ntp.org
-*.pool.ntp.org
 1.pool.ntp.org
 2.pool.ntp.org
 3.pool.ntp.org
-
-# Certificate Authorities
-*.digicert.com
-*.verisign.com
-*.symantec.com
-*.godaddy.com
-*.globalsign.com
-*.thawte.com
-*.geotrust.com
-*.rapidssl.com
-*.comodo.com
-*.sectigo.com
-*.letsencrypt.org
-*.amazontrust.com
-*.microsoft.com
-*.apple.com
-*.google.com
+digicert.com
+verisign.com
+symantec.com
+godaddy.com
+globalsign.com
+thawte.com
+geotrust.com
+rapidssl.com
+comodo.com
+sectigo.com
+letsencrypt.org
+amazontrust.com
+apple.com
+google.com
 crl.microsoft.com
 crl.apple.com
 crl.globalsign.com
@@ -236,95 +164,44 @@ ocsp.sectigo.com
 ocsp.globalsign.com
 ocsp.apple.com
 ocsp.microsoft.com
-
-# =============================================================================
-# CONTENT DELIVERY NETWORKS (CDNs)
-# =============================================================================
-
-# Common CDNs used by media applications
-*.akamai.com
-*.akamai.net
-*.akamaihd.net
-*.akamaitechnologies.com
-*.edgesuite.net
-*.edgekey.net
-*.cloudflare.com
-*.cloudflare.net
-*.fastly.com
-*.fastlylb.net
-*.maxcdn.com
-*.bootstrapcdn.com
-*.jsdelivr.net
-*.unpkg.com
-
-# =============================================================================
-# PLUGIN & THIRD-PARTY AUDIO SOFTWARE
-# =============================================================================
-
-# Common audio plugin manufacturers
-*.waves.com
-*.native-instruments.com
-*.soundtoys.com
-*.fabfilter.com
-*.plugin-alliance.com
-*.slate.com
-*.slatedigital.com
-*.izotope.com
-*.antares.com
-*.melodyne.com
-*.celemony.com
-*.uaudio.com
-*.softube.com
-*.eventide.com
-*.tc-electronic.com
-*.lexicon.com
-*.ik-multimedia.com
-*.arturia.com
-*.spectrasonics.com
-*.toontrack.com
-*.fxpansion.com
-*.xfer.com
-*.lennardigital.com
-*.u-he.com
-*.valhalla-plugins.com
-
-# =============================================================================
-# CUSTOM DOMAINS SECTION
-# =============================================================================
-
-# Add your custom domains below:
-*.adaptglobal.io
-*.elevenlabs.io
-# internal-service.local
-
-# =============================================================================
-# NOTES FOR IMPLEMENTATION
-# =============================================================================
-
-# To implement this allowlist:
-# 1. Copy domains to your Pi-hole whitelist
-# 2. Test each service individually
-# 3. Add any missing domains as needed
-# 4. Remove any domains that aren't required for your setup
-# 5. Consider setting up monitoring to catch any blocked requests
-
-# For Pi-hole CLI implementation:
-# pihole -w domain.com
-# 
-# For bulk import:
-# Save this file and use: pihole -w -l allowlist.txt
-
-# =============================================================================
-# MONITORING & MAINTENANCE
-# =============================================================================
-
-# Recommended monitoring:
-# - Check Pi-hole query logs regularly
-# - Monitor blocked requests during software updates
-# - Test licensing renewals periodically
-# - Verify all applications can phone home for updates
-
-# Version control:
-# Consider maintaining this list in a git repository
-# Use semantic versioning for releases
-# Document any changes and their reasons
+akamai.com
+akamai.net
+akamaihd.net
+akamaitechnologies.com
+edgesuite.net
+edgekey.net
+cloudflare.com
+cloudflare.net
+fastly.com
+fastlylb.net
+maxcdn.com
+bootstrapcdn.com
+jsdelivr.net
+unpkg.com
+waves.com
+native-instruments.com
+soundtoys.com
+fabfilter.com
+plugin-alliance.com
+slate.com
+slatedigital.com
+izotope.com
+antares.com
+melodyne.com
+celemony.com
+uaudio.com
+softube.com
+eventide.com
+tc-electronic.com
+lexicon.com
+ik-multimedia.com
+arturia.com
+spectrasonics.com
+toontrack.com
+fxpansion.com
+xfer.com
+lennardigital.com
+u-he.com
+valhalla-plugins.com
+adaptglobal.io
+elevenlabs.io
